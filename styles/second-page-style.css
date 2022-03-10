@@ -1,0 +1,37 @@
+body {
+	display: table;
+	margin: auto;
+	margin-top: 5%;
+	background-image: url("https://eskipaper.com/images/free-backgrounds-25.jpg");
+	background-repeat: no-repeat;
+	background-size: fit;
+}
+
+h1 {
+	margin-top: 0;
+	text-align: center;
+	color: lightgrey;
+	font-family: cursive;
+}
+
+h2 {
+	color: lightgrey;
+	font-family: cursive;
+	text-align: center;
+}
+
+button {
+	display: table;
+	margin: auto;
+	margin-top: 3em;
+	border-radius: 30px;
+	width: 200px;
+	height: 50px;
+	font-family: cursive;
+	font-size: medium;
+}
+
+#backButton {
+	margin-left: 1250px;
+	margin-top: 50px;
+}
