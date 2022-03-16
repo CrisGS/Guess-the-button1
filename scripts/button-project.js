@@ -1,5 +1,4 @@
 let randomNumber = Math.floor((Math.random() * 3) + 1);
-console.log(randomNumber);
 
 function resetGame() {
   randomNumber = Math.floor((Math.random() * 3) + 1);
