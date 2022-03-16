@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/second-page-style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guess the button</title>
+  </head>
+  <body>
+    <script src="D:\guess-the-button\scripts\button-project.js"></script>
+    <h1>Let's see how lucky you are.</h1>
+    <div>
+      <h2>Choose one button and click on it :)</h2>
+    </div>
+    <div>
+      <button id="1" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
+    </div>
+    <div>
+      <button id="2" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
+    </div>
+    <div>
+      <button id="3" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
+    </div>
+    <div>
+      <button id="resetButton" onclick="resetGame()"><strong>Try again</strong></button>
+    </div>
+    <div>
+      <button id="backButton"><a href="file:///D:/guess-the-button/first-page.html"><strong>Back to the main page</strong></a></button>
+    </div>
+  </body>
+</html>
