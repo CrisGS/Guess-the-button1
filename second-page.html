@@ -13,13 +13,13 @@
 			<h2>Choose one button and click on it :)</h2>
 		</div>
 		<div>
-			<button onclick="firstButton()" title="Are you sure?"><strong>Click me!</strong></button>
+			<button id="1" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
 		</div>
 		<div>
-			<button onclick="secondButton()" title="Are you sure?"><strong>Click me!</strong></button>
+			<button id="2" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
 		</div>
 		<div>
-			<button onclick="thirdButton()" title="Are you sure?"><strong>Click me!</strong></button>
+			<button id="3" onclick="checkWinOrLose(clickedButton(this.id))" title="Are you sure?"><strong>Click me!</strong></button>
 		</div>
 		<div>
 			<button id="resetButton" onclick="resetGame()"><strong>Try again</strong></button>
