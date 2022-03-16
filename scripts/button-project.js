@@ -1,27 +1,16 @@
 let randomNumber = Math.floor((Math.random() * 3) + 1);
+console.log(randomNumber);
 
 function resetGame() {
   randomNumber = Math.floor((Math.random() * 3) + 1);
 }
 
-function firstButton() {
-  if (randomNumber === 1) {
-    alert("BooYaaah! You chose the right one :) Congratulations! You are the champion!");
-  } else {
-    alert ("Oops! You push the wrong button! Maybe the next choice will be the right one");
-  }
+function clickedButton(myButton) {
+  return myButton;
 }
 
-function secondButton() {
-  if (randomNumber === 2) {
-    alert("BooYaaah! You chose the right one :) Congratulations! You are the champion!");
-  } else {
-    alert ("Oops! You push the wrong button! Maybe the next choice will be the right one");
-  }
-}
-
-function thirdButton() {
-  if (randomNumber === 3) {
+function checkWinOrLose(clickedButton) {
+  if (randomNumber == clickedButton) {
     alert("BooYaaah! You chose the right one :) Congratulations! You are the champion!");
   } else {
     alert ("Oops! You push the wrong button! Maybe the next choice will be the right one");
